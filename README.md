@@ -3,12 +3,12 @@
 
 ●Team Members =      
 
-<Member-1>       : Nidhi Gond
+Member-1          : Nidhi Gond
 ➥Department      : ECE
 ➥Github I'd      : https://github.com/Nidhi174
 ➥contact number  : 9170600174
 
-<Member-2>       : Shweta Srivastava
+Member-2          : Shweta Srivastava
 ➥Department      : ECE
 ➥Github I'd      : https://github.com/Shweta2254
 ➥contact number  : 9140252042
