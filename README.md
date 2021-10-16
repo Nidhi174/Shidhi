@@ -50,14 +50,15 @@
 ➛Web servers<br> 
 
  #  📕 Tech Stack :
-  
- ★ JavaScript<br>
+ 
+  //ANDROID DEVELOPMENT//<br>
+ ★ Java<br>
  ★ Python<br>
- ★ Django<br>
+ ★ NodeJs/Django<br>
  ★ Bootstrap<br>
  ★ Html<br>
  ★ CSS<br>
- 
+ ★ MySql<br>
   
  
   
