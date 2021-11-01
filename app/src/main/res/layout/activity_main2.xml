@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Hi Developer ! "
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="What are you looking for ?"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/Bisque"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_rounded"
+            android:text="New"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_rounded"
+            android:text="Upload"
+            android:textSize="20dp"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:text="Import"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:text="Convert"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="199dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="done"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="#191970"
+        android:textStyle="bold" />
+
+    <!--    avd https://github.com/intel/haxm-->
+
+<!--    rounded text https://stackoverflow.com/questions/18781902/rounded-corner-for-textview-in-android-->
+
+
+</LinearLayout>
+
